@@ -9,6 +9,7 @@
     "email": "rcarubbi@gmail.com"
   },
   "dependencies": {
+    "body-parser": "^1.4.3",
     "ejs-locals": "^1.0.2",
     "express": "^4.2.0",
     "jade": "^1.3.1",

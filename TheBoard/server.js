@@ -2,6 +2,7 @@
 var express = require("express");
 var app = express();
 var server = http.createServer(app);
+var bodyParser = require('body-parser')
 
 var controllers = require("./controllers");
 // setup the view engine
@@ -11,8 +12,10 @@ var controllers = require("./controllers");
 //app.set("view engine", "ejs");
 app.set("view engine", "vash");
 
-// massive-js MySQL, PostgreSQL driver
+// opt into services
+app.use(bodyParser.urlencoded());
 
+ 
 //set the public static resources folder
 app.use(express.static(__dirname + "/public"));
 

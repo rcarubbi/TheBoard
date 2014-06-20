@@ -2,7 +2,23 @@
     var seedData = require("./seedData");
     var database = require("./database");
     data.getNotesCategories = function (next) {
-        next(null, seedData.initialNotes);
+        database.getDb(function(err, db) {
+            if (err) {
+                next(err, null);
+            } else {
+                //   db.notes.find({name: "People"}).toArray(function(err, results) {
+                //   db.notes.find({notes: {$size: 2} }).toArray(function(err, results) {
+                //   db.notes.find({notes: {$not : {$size: 2} }}).toArray(function(err, results) {
+                //   db.notes.find().sort({name: -1}).toArray(function(err, results) {
+                db.notes.find().sort({name: 1}).toArray(function(err, results) {
+                    if (err) {
+                        next(err, null);
+                    } else {
+                        next(null, results);
+                    }
+                });
+            }
+        });
     };
 
     function seedDatabase() {
@@ -29,6 +45,9 @@
                 }); 
             }
         });
+
+
+
     }
  
     seedDatabase();

@@ -1,0 +1,18 @@
+{
+  "name": "FunWithNode",
+  "version": "0.0.0",
+  "description": "FunWithNode",
+  "main": "app.js",
+  "author": {
+    "name": "Carubbi",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.2.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.2.1"
+  }
+}

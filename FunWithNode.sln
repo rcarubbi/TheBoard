@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FunWithNode", "FunWithNode\FunWithNode.njsproj", "{5DF1A4F6-1DA7-4AFA-AE68-A423D6C725A1}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TheBoard", "TheBoard\TheBoard.njsproj", "{B7933502-F428-4AEC-AB71-8B84EB26E524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF1A4F6-1DA7-4AFA-AE68-A423D6C725A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF1A4F6-1DA7-4AFA-AE68-A423D6C725A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF1A4F6-1DA7-4AFA-AE68-A423D6C725A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF1A4F6-1DA7-4AFA-AE68-A423D6C725A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7933502-F428-4AEC-AB71-8B84EB26E524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7933502-F428-4AEC-AB71-8B84EB26E524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7933502-F428-4AEC-AB71-8B84EB26E524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7933502-F428-4AEC-AB71-8B84EB26E524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
